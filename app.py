@@ -17,7 +17,7 @@ def greet(name=""):
 def celsius_to_fahrenheit(celsius):
     """Display fahrenheit from given celsius"""
     celsius = float(celsius)
-    return f"{convert_celsius_to_fahrenheit(celsius)}"
+    return f"{celsius} is {convert_celsius_to_fahrenheit(celsius)} degrees Fahrenheit."
 
 
 def convert_celsius_to_fahrenheit(celsius):
